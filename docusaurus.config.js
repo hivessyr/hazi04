@@ -8,32 +8,40 @@ import path from 'path'
 const config = {
   title: 'TechWriting Házi 4',
   tagline: 'Dokumentáció Docusaurusszal',
-  url: 'http://localhost:3000',
-  baseUrl: '/',
+  url: 'https://hivessyr.github.io',
+  baseUrl: '/hazi04/',
   favicon: 'img/favicon.ico',
   organizationName: 'hivessyr', // GitHub org/user
   projectName: 'hazi04', // repo név
- 
- plugins: [
-  [
-    'docusaurus-plugin-openapi-docs',
-    {
-      id: 'openapi',
-      docsPluginId: 'classic',
-      config: {
-        petstore: {
-          specPath: 'openapi/petstore-api.yaml',
-          outputDir: 'docs/petstore',
-          sidebarOptions: {
-            groupPathsBy: 'tag',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: 'openapi',
+        docsPluginId: 'classic',
+        config: {
+          petstore: {
+            specPath: 'openapi/petstore-api.yaml',
+            outputDir: 'docs/petstore',
+            sidebarOptions: {
+              groupPathsBy: 'tag',
+            },
           },
         },
       },
-    },
+    ],
   ],
-],
 
- themes: ['docusaurus-theme-openapi-docs'],
+  themes: ['docusaurus-theme-openapi-docs'],
 
   presets: [
     [
@@ -53,7 +61,6 @@ const config = {
       }),
     ],
   ],
-
 
   themeConfig: {
     navbar: {
