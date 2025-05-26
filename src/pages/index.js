@@ -29,14 +29,19 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="TechWriting Házi 4"
+      description="Dokumentációs projekt Docusaurusszal"
+    >
+      <main style={{ padding: '2rem' }}>
+        <h1>Üdvözöllek!</h1>
+        <p>Itt található a házi feladathoz tartozó dokumentáció:</p>
+        <ul>
+          <li><a href="/docs/tutorials/intro">Tutorialok</a></li>
+          <li><a href="/docs/guides/installation-guide">Guides</a></li>
+          <li><a href="/docs/petstore/list-all-pets">Petstore API</a></li>
+        </ul>
       </main>
     </Layout>
   );
