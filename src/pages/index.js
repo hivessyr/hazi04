@@ -10,9 +10,9 @@ export default function Home() {
         <h1>Üdvözöllek!</h1>
         <p>Itt található a házi feladathoz tartozó dokumentáció:</p>
         <ul>
-          <li><a href="https://hivessyr.github.io/hazi04/docs/tutorials/intro">Tutorialok</a></li>
-          <li><a href="https://hivessyr.github.io/hazi04/docs/guides/installation-guide">Guides</a></li>
-          <li><a href="https://hivessyr.github.io/hazi04/docs/petstore/list-all-pets">Petstore API</a></li>
+          <li><a href="/hazi04/docs/tutorials/intro">Tutorialok</a></li>
+          <li><a href="/hazi04/docs/guides/installation-guide">Guides</a></li>
+          <li><a href="/hazi04/docs/petstore/list-all-pets">Petstore API</a></li>
         </ul>
       </main>
     </Layout>
