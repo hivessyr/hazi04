@@ -64,7 +64,7 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'TechWriting Házi 4',
+      title: 'TechWriting Házi feladat 4',
       logo: {
         alt: 'TechWriting Logo',
         src: 'img/logo.svg',
