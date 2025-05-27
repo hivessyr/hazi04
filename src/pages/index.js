@@ -11,9 +11,9 @@ export default function Home() {
         <h1>Üdvözöllek!</h1>
         <p>Itt található a házi feladathoz tartozó dokumentáció:</p>
         <ul>
-          <li><Link to="/docs/tutorials/intro">Tutorialok</Link></li>
-          <li><Link to="/docs/guides/installation-guide">Guides</Link></li>
-          <li><Link to="/docs/petstore/list-all-pets">Petstore API</Link></li>
+          <li><Link to="docs/tutorials/intro">Tutorialok</Link></li>
+          <li><Link to="docs/guides/installation-guide">Guides</Link></li>
+          <li><Link to="docs/petstore/list-all-pets">Petstore API</Link></li>
         </ul>
       </main>
     </Layout>
