@@ -4,10 +4,21 @@
         <title>TechWriting Házi 4 Blog</title>
         <link>https://hivessyr.github.io/hazi04/blog</link>
         <description>TechWriting Házi 4 Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[A review folyamat tanulságai]]></title>
+            <link>https://hivessyr.github.io/hazi04/blog/2025/05/27/my-review-experience</link>
+            <guid>https://hivessyr.github.io/hazi04/blog/2025/05/27/my-review-experience</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ma kipróbáltam a Docusaurus review workflow-t. Megoldható.]]></description>
+            <content:encoded><![CDATA[<p>Ma kipróbáltam a Docusaurus review workflow-t. Megoldható.</p>]]></content:encoded>
+            <category>review</category>
+            <category>git</category>
+            <category>Docusaurus</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://hivessyr.github.io/hazi04/blog/welcome</link>

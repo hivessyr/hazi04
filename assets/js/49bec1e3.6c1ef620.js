@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhf_04=self.webpackChunkhf_04||[]).push([[3753],{88022:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/hazi04/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hivessyr.github.io/hazi04/blog</id>
     <title>TechWriting Házi 4 Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-05-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hivessyr.github.io/hazi04/blog"/>
     <subtitle>TechWriting Házi 4 Blog</subtitle>
     <icon>https://hivessyr.github.io/hazi04/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[A review folyamat tanulságai]]></title>
+        <id>https://hivessyr.github.io/hazi04/blog/2025/05/27/my-review-experience</id>
+        <link href="https://hivessyr.github.io/hazi04/blog/2025/05/27/my-review-experience"/>
+        <updated>2025-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ma kipróbáltam a Docusaurus review workflow-t. Megoldható.]]></summary>
+        <content type="html"><![CDATA[<p>Ma kipróbáltam a Docusaurus review workflow-t. Megoldható.</p>]]></content>
+        <category label="review" term="review"/>
+        <category label="git" term="git"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://hivessyr.github.io/hazi04/blog/welcome</id>
