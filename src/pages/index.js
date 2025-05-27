@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
         <h1>Üdvözöllek!</h1>
         <p>Itt található a házi feladathoz tartozó dokumentáció:</p>
         <ul>
-          <li><a href={useBaseUrl('/docs/tutorials/intro')}>Tutorialok</a></li>
-          <li><a href={useBaseUrl('/docs/guides/installation-guide')}>Guides</a></li>
-          <li><a href={useBaseUrl('/docs/petstore/list-all-pets')}>Petstore API</a></li>
+          <li><Link to={useBaseUrl('docs/tutorials/intro')}>Tutorialok</Link></li>
+          <li><Link to={useBaseUrl('docs/guides/installation-guide')}>Guides</Link></li>
+          <li><Link to={useBaseUrl('docs/petstore/list-all-pets')}>Petstore API</Link></li>
         </ul>
       </main>
     </Layout>
