@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 
 export default function Home() {
   return (
@@ -10,9 +11,9 @@ export default function Home() {
         <h1>Üdvözöllek!</h1>
         <p>Itt található a házi feladathoz tartozó dokumentáció:</p>
         <ul>
-          <li><a href="/hazi04/docs/tutorials/intro">Tutorialok</a></li>
-          <li><a href="/hazi04/docs/guides/installation-guide">Guides</a></li>
-          <li><a href="/hazi04/docs/petstore/list-all-pets">Petstore API</a></li>
+          <li><Link to="/docs/tutorials/intro">Tutorialok</Link></li>
+          <li><Link to="/docs/guides/installation-guide">Guides</Link></li>
+          <li><Link to="/docs/petstore/list-all-pets">Petstore API</Link></li>
         </ul>
       </main>
     </Layout>
